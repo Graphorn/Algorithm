@@ -7,7 +7,7 @@ package limiao.leetcode;
  * @author seektech
  * @time Oct 7, 2016 2:36:50 PM
  */
-public class No_14_LongestCommonPrefix {
+public class No_014_LongestCommonPrefix {
 	public static void main(String args[]){
 		
 	}

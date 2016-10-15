@@ -8,7 +8,7 @@ package limiao.leetcode;
  * @author seektech
  * Oct 15, 2016 5:47:20 PM
  */
-public class No_28_strStr {
+public class No_028_strStr {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

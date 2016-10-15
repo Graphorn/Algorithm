@@ -13,7 +13,7 @@ package limiao.leetcode;
  * @author seektech
  * @time Sep 27, 2016 10:08:04 PM
  */
-public class No_6_ZigZagConversion {
+public class No_006_ZigZagConversion {
 	public static void main(String args[]){
 		System.out.println(convert("PAYPALISHIRING", 4));
 	}

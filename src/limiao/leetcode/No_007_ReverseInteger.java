@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @author seektech
  * @time Sep 28, 2016 7:41:42 PM
  */
-public class No_7_ReverseInteger {
+public class No_007_ReverseInteger {
 	public static void main(String args[]){
 		System.out.println(reverse(1534236469));
 		System.out.println(reverse(-123));

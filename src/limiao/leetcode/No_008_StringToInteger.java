@@ -7,7 +7,7 @@ package limiao.leetcode;
  * @author seektech
  * @time Sep 28, 2016 10:17:12 PM
  */
-public class No_8_StringToInteger {
+public class No_008_StringToInteger {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(myAtoi("-2147483648"));

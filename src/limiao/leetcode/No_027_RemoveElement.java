@@ -12,7 +12,7 @@ package limiao.leetcode;
  * @author seektech
  * @time Oct 8, 2016 10:23:05 AM
  */
-public class No_27_RemoveElement {
+public class No_027_RemoveElement {
 
 	/**
 	 * @param args

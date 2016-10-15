@@ -12,7 +12,7 @@ import java.util.Stack;
  * @author seektech
  * Oct 13, 2016 4:08:44 PM
  */
-public class No_20_ValidParentheses {
+public class No_020_ValidParentheses {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

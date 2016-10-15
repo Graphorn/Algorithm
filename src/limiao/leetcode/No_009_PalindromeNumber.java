@@ -7,7 +7,7 @@ package limiao.leetcode;
  * @author seektech
  * @time Sep 29, 2016 10:18:54 PM
  */
-public class No_9_PalindromeNumber {
+public class No_009_PalindromeNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

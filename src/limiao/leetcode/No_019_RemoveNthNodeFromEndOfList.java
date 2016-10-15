@@ -14,7 +14,7 @@ package limiao.leetcode;
  * @author seektech
  * Oct 12, 2016 9:50:05 PM
  */
-public class No_19_RemoveNthNodeFromEndOfList {
+public class No_019_RemoveNthNodeFromEndOfList {
 	/**
 	 * Definition for singly-linked list.
 	 * public class ListNode {
@@ -25,12 +25,12 @@ public class No_19_RemoveNthNodeFromEndOfList {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		No_19_RemoveNthNodeFromEndOfList instance = new No_19_RemoveNthNodeFromEndOfList();
-		No_19_RemoveNthNodeFromEndOfList.ListNode head = instance.new ListNode(1);
-		No_19_RemoveNthNodeFromEndOfList.ListNode node1 = instance.new ListNode(2);
-		No_19_RemoveNthNodeFromEndOfList.ListNode node2 = instance.new ListNode(3);
-		No_19_RemoveNthNodeFromEndOfList.ListNode node3 = instance.new ListNode(4);
-		No_19_RemoveNthNodeFromEndOfList.ListNode node4 = instance.new ListNode(5);
+		No_019_RemoveNthNodeFromEndOfList instance = new No_019_RemoveNthNodeFromEndOfList();
+		No_019_RemoveNthNodeFromEndOfList.ListNode head = instance.new ListNode(1);
+		No_019_RemoveNthNodeFromEndOfList.ListNode node1 = instance.new ListNode(2);
+		No_019_RemoveNthNodeFromEndOfList.ListNode node2 = instance.new ListNode(3);
+		No_019_RemoveNthNodeFromEndOfList.ListNode node3 = instance.new ListNode(4);
+		No_019_RemoveNthNodeFromEndOfList.ListNode node4 = instance.new ListNode(5);
 		head.next = node1;
 		node1.next = node2;
 		node2.next = node3;

@@ -10,7 +10,7 @@ package limiao.leetcode;
  * @author seektech
  * @time Aug 5, 2016 7:32:02 PM
  */
-public class No_2_AddTwoNumbers {
+public class No_002_AddTwoNumbers {
 	/**
 	 * Definition for singly-linked list.
 	 * public class ListNode {
