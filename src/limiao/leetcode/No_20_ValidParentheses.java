@@ -20,11 +20,35 @@ public class No_20_ValidParentheses {
 		
 	}
 	public boolean isValid(String s) {
-		Stack st = new Stack();
-		st.push(s.charAt(0));
-		for(int i=1; i<s.length(); i++){
-			//if()st.push(s.charAt(i));
+		Stack<Character> st = new Stack<Character>();
+		int len = s.length();
+		if(len == 0) return true;
+		if(len%2!=0) return false;
+		
+		for(int i=0; i<s.length(); i++){
+			char current = s.charAt(i);
+			if(!st.isEmpty()){
+				if(current!='('&&current!='['&&current!='{'){
+					switch(st.peek()){
+					case '(':
+						if(current == ')'){
+							st.pop();
+						}
+						break;
+					case '[':
+						if(current == ']'){
+							st.pop();
+						}
+						break;
+					case '{':
+						if(current == '}'){
+							st.pop();
+						}
+						break;
+					}
+				}else st.push(s.charAt(i));
+			}else st.push(s.charAt(i));
 		}
-        return false; 
+        return st.isEmpty(); 
     }
 }
