@@ -64,7 +64,7 @@ public class KMP2 {
         int j = 0;  
         while (j < len - 1)  
         {  
-            //p[k]表示前缀，p[j]表示后缀    
+            //k表示前缀索引，j表示后缀索引    
             if (k == -1 || find.charAt(j)==find.charAt(k))  
             {  
                 ++j;  
@@ -73,7 +73,7 @@ public class KMP2 {
                 if (find.charAt(j)!=find.charAt(k))  
                     next[j] = k;   //之前只有这一行  
                 else  
-                    //因为不能出现p[j] = p[ next[j ]]，所以当出现时需要继续递归，k = next[k] = next[next[k]]  
+                    //因为不能出现find[j] = find[ next[j ]]，所以当出现时需要继续递归，k = next[k] = next[next[k]]  
                     next[j] = next[k];  
             }  
             else  
