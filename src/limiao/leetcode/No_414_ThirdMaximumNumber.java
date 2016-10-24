@@ -35,7 +35,7 @@ public class No_414_ThirdMaximumNumber {
 			}
 			if(list.size() == 3) break;
 		}
-		
+		//haha
 		
 		for(int i=0; i<nums.length; i++){
 			if(nums[i]>list.get(2)&&nums[i]<list.get(1)){
