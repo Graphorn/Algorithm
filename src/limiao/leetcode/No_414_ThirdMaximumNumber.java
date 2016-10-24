@@ -30,8 +30,8 @@ public class No_414_ThirdMaximumNumber {
 			}
 			if(nums[i]>list.get(list.size()-1)){
 				int temp = list.get(list.size()-1);
-				list.set(list.size()-1,temp);
-				list.add(nums[i]);
+				list.set(list.size()-1,nums[i]);
+				list.add(temp);
 			}
 			if(list.size() == 3) break;
 		}
