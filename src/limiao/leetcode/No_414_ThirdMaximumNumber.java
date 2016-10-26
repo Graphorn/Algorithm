@@ -19,34 +19,23 @@ public class No_414_ThirdMaximumNumber {
 		System.out.println(thirdMax(source));
 	}
 	public static int thirdMax(int[] nums) {
-		List<Integer> lst = new ArrayList<>();
-        boolean equal;
-        int tmp;
-
-        for (int i=0; i<nums.length; i++) {
-            equal = false;
-            int j=0;
-            for (;j<3&&j<lst.size(); j++) {
-                tmp = lst.get(j);
-                if (tmp == nums[i]) {
-                    equal = true;
-                    break;
-                }
-                else if (tmp < nums[i]) {
-                    break;
-                }
-            }
-            if (!equal && j<3)
-            lst.add(j, nums[i]);
-        }
-
-        if (lst.size() < 3) {
-            if (lst.size() > 0) {
-                return lst.get(0);
-            }
-            return 0;
-        }
-
-        return lst.get(2);
+		List<Integer> list = new ArrayList<>();
+		boolean equal;
+		int tmp;
+		for(int i=0; i<nums.length; i++){
+			equal = false;
+			int j;
+			for(j=0; j<list.size()&&j<3; j++){
+				tmp = list.get(j);
+				if(nums[i]>tmp) break;
+				if(nums[i]==tmp){
+					equal = true;
+					break;
+				} 
+			}
+			if(!equal&&j<3) list.add(j, nums[i]);
+		}
+		if(list.size()<3) return list.get(0);
+		return list.get(2);
     }
 }
