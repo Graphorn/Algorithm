@@ -5,7 +5,7 @@ package limiao.leetcode;
  * @author seektech
  * Oct 26, 2016 3:45:16 PM
  */
-public class No_88_MergeSortedArray {
+public class No_088_MergeSortedArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

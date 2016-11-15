@@ -5,7 +5,7 @@ package limiao.leetcode;
  * @author seektech
  * Oct 26, 2016 8:18:52 PM
  */
-public class No_66_PlusOne {
+public class No_066_PlusOne {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

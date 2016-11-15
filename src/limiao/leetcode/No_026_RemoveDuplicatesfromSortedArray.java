@@ -5,7 +5,7 @@ package limiao.leetcode;
  * @author seektech
  * Oct 26, 2016 8:33:48 PM
  */
-public class No_26_RemoveDuplicatesfromSortedArray {
+public class No_026_RemoveDuplicatesfromSortedArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
