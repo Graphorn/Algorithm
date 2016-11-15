@@ -5,7 +5,7 @@ package limiao.leetcode;
  * @author seektech
  * @time Nov 15, 2016 11:32:56 AM
  */
-public class No_11_ContainerWithMostWater {
+public class No_011_ContainerWithMostWater {
 
 	public static void main(String[] args) {
 		int[] height = {2,4,3,5,6,1,4};
