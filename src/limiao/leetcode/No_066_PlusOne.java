@@ -9,7 +9,6 @@ public class No_066_PlusOne {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 	}
 
     public int[] plusOne(int[] digits) {
