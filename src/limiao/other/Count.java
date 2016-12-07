@@ -1,4 +1,4 @@
-package limiao.leetcode;
+package limiao.other;
 
 import java.util.Scanner;
 
