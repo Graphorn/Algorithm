@@ -5,6 +5,13 @@ package limiao.datastructure.tree;
  * Feb 28, 2017 9:29:02 AM
  * 
  * Tree实体类
+ *              6
+ *            /  \
+ *           3    9
+ *          / \   /
+ *         1   5  7
+ *          \  /   \
+ *           2 4    8
  */
 public class TreeEntity {
 	public TreeNode init(){  
