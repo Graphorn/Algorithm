@@ -35,6 +35,7 @@ public class InOrderTraversal {
         while(root != null || stack.size()>0){  
             if(root != null){  
                 stack.push(root);//直接压栈  
+                System.out.println(stack.size()+"zz");
                 root = root.left;  
             }else{  
             	root = stack.pop();//出栈并访问  
