@@ -43,5 +43,6 @@ public class PreOrderTraversal {
             	root = root.right;  
             }  
         }  
+        System.out.println(stack.size());
 	}
 }
