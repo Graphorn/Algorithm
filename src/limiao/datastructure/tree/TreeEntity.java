@@ -31,10 +31,10 @@ public class TreeEntity {
         TreeNode J = new TreeNode(8, null, null);  
         TreeNode H = new TreeNode(4, null, null);  
         TreeNode G = new TreeNode(2, null, null);  
-        TreeNode F = new TreeNode(7, null, J);  
-        TreeNode E = new TreeNode(5, H, null);  
-        TreeNode D = new TreeNode(1, null, G);  
-        TreeNode C = new TreeNode(9, F, null);  
+        TreeNode F = new TreeNode(7, null, null);  
+        TreeNode E = new TreeNode(5, null, null);  
+        TreeNode D = new TreeNode(1, J, G);  
+        TreeNode C = new TreeNode(9, F, H);  
         TreeNode B = new TreeNode(3, D, E);  
         TreeNode A = new TreeNode(6, B, C);  
         return A;  //返回根节点  
