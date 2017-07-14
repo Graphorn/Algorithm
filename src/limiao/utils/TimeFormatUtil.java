@@ -1,4 +1,4 @@
-package limiao.usual;
+package limiao.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

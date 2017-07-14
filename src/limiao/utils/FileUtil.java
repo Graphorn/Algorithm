@@ -1,4 +1,4 @@
-package limiao.usual;
+package limiao.utils;
 
 
 import java.io.BufferedReader;
