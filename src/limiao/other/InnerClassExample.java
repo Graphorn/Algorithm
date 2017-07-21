@@ -1,17 +1,17 @@
-package limiao.datastructure.list;
+package limiao.other;
 
 /**
  * 测试内部类直接访问外部类的方法和属性
  * @author limiao
  * @time 2016年5月17日 下午7:52:13
  */
-public class TestInnerClass {
+public class InnerClassExample {
 
 	private String s = "OuterClass";
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		TestInnerClass out = new TestInnerClass();
-		TestInnerClass.InnerClass in = out.new InnerClass();
+		InnerClassExample out = new InnerClassExample();
+		InnerClassExample.InnerClass in = out.new InnerClass();
 		in.execute();
 	}
 	
@@ -26,7 +26,7 @@ public class TestInnerClass {
 		public void execute(){
 			write("123");// 先从当前的内里面找是否有该方法，没有则从外部类里面找
 			this.write(s);// 可以访问外部类的属性
-			TestInnerClass.this.write(s);
+			InnerClassExample.this.write(s);
 		}
 	}
 

@@ -1,6 +1,6 @@
 package limiao.leetcode;
 
-import limiao.datastructure.tree.TreeEntity;
+import limiao.datastructure.tree.BinaryTree;
 import limiao.datastructure.tree.TreeNode;
 
 /**
@@ -12,7 +12,7 @@ import limiao.datastructure.tree.TreeNode;
 public class No_222_CountCompleteTreeNodes {
 
 	public static void main(String[] args) {
-		TreeEntity treeEntity = new TreeEntity();
+		BinaryTree treeEntity = new BinaryTree();
 		No_222_CountCompleteTreeNodes no_222_CountCompleteTreeNodes = new No_222_CountCompleteTreeNodes();
 		System.out.println(no_222_CountCompleteTreeNodes.countNodesIterative(treeEntity.initCompleteTree()));
 	}

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-import limiao.datastructure.tree.TreeEntity;
+import limiao.datastructure.tree.BinaryTree;
 import limiao.datastructure.tree.TreeNode;
 
 /**
@@ -17,7 +17,7 @@ import limiao.datastructure.tree.TreeNode;
 public class No_113_PathSumII {
 
 	public static void main(String[] args) {
-		TreeEntity treeEntity = new TreeEntity();
+		BinaryTree treeEntity = new BinaryTree();
 		TreeNode root = treeEntity.init();
 		No_113_PathSumII no_113_PathSumII = new No_113_PathSumII();
 		List<List<Integer>> list = no_113_PathSumII.pathSum(root, 18);

@@ -111,6 +111,7 @@ public class BinarySearchTree {
 			printTree(t.rightChild);
 		}
 	}
+
 	/**
 	 * 嵌套类，二叉查找树节点类 
 	 */

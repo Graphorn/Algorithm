@@ -1,6 +1,6 @@
 package limiao.leetcode;
 
-import limiao.datastructure.tree.TreeEntity;
+import limiao.datastructure.tree.BinaryTree;
 import limiao.datastructure.tree.TreeNode;
 
 /**
@@ -12,7 +12,7 @@ import limiao.datastructure.tree.TreeNode;
 public class No_114_FlattenBinaryTreetoLinkedList {
 
 	public static void main(String[] args) {
-		TreeEntity treeEntity = new TreeEntity();
+		BinaryTree treeEntity = new BinaryTree();
 		TreeNode root = treeEntity.init();
 		No_114_FlattenBinaryTreetoLinkedList no_114_FlattenBinaryTreetoLinkedList = new No_114_FlattenBinaryTreetoLinkedList();
 		no_114_FlattenBinaryTreetoLinkedList.flatten(root);

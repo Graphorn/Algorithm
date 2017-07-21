@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-import limiao.datastructure.tree.TreeEntity;
+import limiao.datastructure.tree.BinaryTree;
 import limiao.datastructure.tree.TreeNode;
 
 /**
@@ -18,7 +18,7 @@ public class No_513_FindBottomLeftTreeValue {
 
 	public static void main(String[] args) {
 		No_513_FindBottomLeftTreeValue no_513_FindBottomLeftTreeValue = new No_513_FindBottomLeftTreeValue();
-		TreeEntity treeEntity = new TreeEntity();
+		BinaryTree treeEntity = new BinaryTree();
 		System.out.println(no_513_FindBottomLeftTreeValue.findBottomLeftValue(treeEntity.init()));
 	}
 	public int findBottomLeftValue(TreeNode root) {

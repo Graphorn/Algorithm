@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-import limiao.datastructure.tree.RowOrderTraversal;
-import limiao.datastructure.tree.TreeEntity;
+import limiao.datastructure.tree.BinaryTree;
 import limiao.datastructure.tree.TreeNode;
 import limiao.other.Count;
 
@@ -21,7 +20,7 @@ public class No_098_ValidateBinarySearchTree {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		TreeEntity treeEntity = new TreeEntity();
+		BinaryTree treeEntity = new BinaryTree();
 		System.out.println(new No_098_ValidateBinarySearchTree().isValidBST(treeEntity.init()));
 	}
 	public boolean isValidBST(TreeNode root) {

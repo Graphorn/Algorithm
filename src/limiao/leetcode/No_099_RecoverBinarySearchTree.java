@@ -6,7 +6,7 @@ import java.util.Stack;
 
 import org.junit.Before;
 
-import limiao.datastructure.tree.TreeEntity;
+import limiao.datastructure.tree.BinaryTree;
 import limiao.datastructure.tree.TreeNode;
 
 /**
@@ -19,7 +19,7 @@ public class No_099_RecoverBinarySearchTree {
 
 	public static void main(String[] args) {
 		No_099_RecoverBinarySearchTree no_099_RecoverBinarySearchTree = new No_099_RecoverBinarySearchTree();
-		TreeEntity treeEntity = new TreeEntity();
+		BinaryTree treeEntity = new BinaryTree();
 		no_099_RecoverBinarySearchTree.recoverTree(treeEntity.init());
 	}
 	public void recoverTree(TreeNode root) {

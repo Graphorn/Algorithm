@@ -3,7 +3,7 @@ package limiao.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
-import limiao.datastructure.tree.TreeEntity;
+import limiao.datastructure.tree.BinaryTree;
 import limiao.datastructure.tree.TreeNode;
 
 /**
@@ -15,7 +15,7 @@ import limiao.datastructure.tree.TreeNode;
 public class No_257_BinaryTreePaths {
 
 	public static void main(String[] args) {
-		TreeEntity treeEntity = new TreeEntity();
+		BinaryTree treeEntity = new BinaryTree();
 		No_257_BinaryTreePaths no_257_BinaryTreePaths = new No_257_BinaryTreePaths();
 		List<String> list = no_257_BinaryTreePaths.binaryTreePaths(treeEntity.init());
 		for(String i:list){

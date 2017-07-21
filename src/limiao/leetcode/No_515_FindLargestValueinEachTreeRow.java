@@ -5,8 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import limiao.datastructure.tree.RowOrderTraversal;
-import limiao.datastructure.tree.TreeEntity;
+import limiao.datastructure.tree.BinaryTree;
 import limiao.datastructure.tree.TreeNode;
 
 /**
@@ -18,7 +17,7 @@ import limiao.datastructure.tree.TreeNode;
 public class No_515_FindLargestValueinEachTreeRow {
 	public static void main(String[] args) {
 		No_515_FindLargestValueinEachTreeRow no_515_FindLargestValueinEachTreeRow = new No_515_FindLargestValueinEachTreeRow();
-		TreeEntity treeEntity = new TreeEntity();
+		BinaryTree treeEntity = new BinaryTree();
 		List<Integer> list = no_515_FindLargestValueinEachTreeRow.largestValues(treeEntity.init());
 		for(int i:list){
 			System.out.print(i+" ");
