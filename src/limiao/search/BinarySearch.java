@@ -1,4 +1,4 @@
-package limiao.search.binarysearch;
+package limiao.search;
 
 /**
  * 二分查找，递归和非递归实现
@@ -96,19 +96,18 @@ public class BinarySearch {
 	 */
 	public int betterLoopBinarySearch(int[] array, int start, int end, int des) {
 		int mid = -1;
-		while(end>start){
+		while(end>start+1){
 			mid = (start+end)/2;
 			if(array[mid]>=des){// 不能搜索最右边的元素
-				start = mid;
+				end = mid;
 			}else{
-				end =mid;
+				start =mid;
 			}
 		}
-		if(array[start] == des){
-			return start;
-		}else{
-			return -1;
+		if(array[end] == des){
+			return end;
 		}
+		return -1;
 	}
 
 	public static void main(String[] args) {
@@ -120,7 +119,7 @@ public class BinarySearch {
 				binarySearch.array, 0, binarySearch.array.length - 1,
 				binarySearch.des);
 		// 非递归测试结果
-		binarySearch.resultL = binarySearch.loopBinarySearch(
+		binarySearch.resultL = binarySearch.betterLoopBinarySearch(
 				binarySearch.array, 0, binarySearch.array.length - 1,
 				binarySearch.des);
 		// 改进的非递归测试结果

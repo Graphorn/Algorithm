@@ -1,4 +1,4 @@
-package limiao.verification;
+package limiao.common.java;
 
 /**
  * Java中值传递

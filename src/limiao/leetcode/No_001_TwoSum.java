@@ -24,6 +24,7 @@ public class No_001_TwoSum {
 		System.out.println(Arrays.toString(solution.twoSum2(nums,target)));
 	}
 	
+	
 	public class Solution{
 		//利用双重循环，时间复杂度高
 		public int[] twoSum1(int[] nums, int target) {

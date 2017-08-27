@@ -1,4 +1,4 @@
-package limiao.other;
+package limiao.common.java;
 
 /**
  * 测试内部类直接访问外部类的方法和属性
