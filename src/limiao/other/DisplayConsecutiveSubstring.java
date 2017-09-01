@@ -12,6 +12,7 @@ public class DisplayConsecutiveSubstring {
 		// TODO Auto-generated method stub
 		displaySubstring("abcd");
 	}
+	
 	public static void displaySubstring(String str){  
         for(int k=1;k<=str.length();k++){//控制步长  
             for(int i=0;i<=str.length()-k;i++){//对字符串逐步扫描  
