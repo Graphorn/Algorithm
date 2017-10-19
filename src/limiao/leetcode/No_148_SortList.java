@@ -9,7 +9,6 @@ package limiao.leetcode;
  */
 public class No_148_SortList {
 	public static void main(String[] args) {
-		
 	}
 
 	public ListNode sortList(ListNode head) {
