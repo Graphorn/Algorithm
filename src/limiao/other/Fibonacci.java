@@ -14,6 +14,7 @@ public class Fibonacci {
 		Fibonacci fibonacci = new Fibonacci();
 		System.out.println(fibonacci.FibonacciRecursive(3));
 		System.out.println(fibonacci.FibonacciTailRecursive(3, 0, 1));
+		System.out.println(fibonacci.FibonacciIterative(3));
 	}
 	/**
 	 * 一般递归
@@ -33,5 +34,23 @@ public class Fibonacci {
 		else {
 			return FibonacciTailRecursive(n-1, r2, r1+r2);
 		}
+	}
+	/**
+	 * 非递归，自下向上计算
+	 */
+	public int FibonacciIterative(int n) {
+		int first = 0;
+		int second = 1;
+		
+		if(n==0) return first;
+		if(n==1) return second;
+		
+		int result = 0;
+		for(int i=2; i<=n; i++) {
+			result = first + second;
+			first = second;
+			second = result;
+		}
+		return result;
 	}
 }

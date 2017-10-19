@@ -12,16 +12,17 @@ public class InsertSort {
 		for(int i=1;i<source.length;i++){// 这里可以从1开始
 			int temp = source[i];
 //			for(int j=i-1;j>=0;j--){
-//				if(source[j]>temp){
+//				if(source[j]>temp){    
 //					source[j+1] = source[j];
 //					source[j] = temp;
 //				}
 //			}
 			// 将if和for结合,减少不必要的循环次数
-			for(int j=i-1;j>=0&&source[j]>temp;j--){
+			int j = 0;
+			for(j=i-1;j>=0&&source[j]>temp;j--){
 					source[j+1] = source[j];
-					source[j] = temp;
 			}
+			source[j+1] = temp;
 		}
 		for(int m=0;m<source.length;m++){
 			System.out.print(source[m]+" ");

@@ -206,6 +206,9 @@ public class BinaryTree {
     }
     /**
      * 求节点的高度
+     * Mark Allen数据结构书中对高度和深度的定义：
+     * 高度：该节点到一片树叶的最长路径长，叶节点高度为0
+     * 深度：根节点到该节点的唯一路径长，根节点深度为0
      */
     private static int height(TreeNode node){
         if(node == null) return -1;

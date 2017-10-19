@@ -10,9 +10,10 @@ package limiao.leetcode;
 public class No_008_StringToInteger {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(myAtoi("-2147483648"));
+		System.out.println(myAtoi("-2147483 648"));
 	}
     public static int myAtoi(String str) {
+    	// 验证输入参数是否为空，长度是否为0
     	if(str == null || str.length() == 0) return 0;
     	
     	int j = 0;
@@ -27,6 +28,7 @@ public class No_008_StringToInteger {
     		j++;
     	} 
     	
+    	// 转换
     	double sum = 0;
     	for(int i=j; i<str.length(); i++){
     		char current = str.charAt(i);
@@ -38,6 +40,7 @@ public class No_008_StringToInteger {
     	}
     	
     	double res = sum*sign;
+    	// 判断溢出
     	if(res>Integer.MAX_VALUE) return Integer.MAX_VALUE;
     	if(res<Integer.MIN_VALUE) return Integer.MIN_VALUE;
     	
