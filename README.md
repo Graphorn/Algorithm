@@ -1,2 +1,2 @@
 # Algorithm
-exercise of daily algorithm, in JAVA
+Exercise of daily algorithm, in JAVA
